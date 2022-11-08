@@ -10,7 +10,6 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 80px;
 	width: 100%;
 	padding: 20px;
 	background-color: rgba(250, 250, 250, 0.9);
@@ -20,6 +19,9 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+#container {
+	margin-top: 80px;
 }
 
 #footer {
