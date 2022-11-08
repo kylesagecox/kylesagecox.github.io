@@ -19,6 +19,7 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
+	padding: 20px 80px;
 }
 #container {
 	margin-top: 120px;
