@@ -35,6 +35,10 @@ body {
 	margin: auto;
 	margin-top: 120px;
 }
+img {
+	max-width: 720px;
+	max-height: calc(vh-160px);
+}
 
 #footer {
 	position: fixed;
