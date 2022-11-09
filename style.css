@@ -19,7 +19,7 @@ body {
 }
 #header #menu {
 	position: absolute;
-	top: 20;
+	top: 20px;
 	right: 0;
 	padding: 20px 80px;
 }
