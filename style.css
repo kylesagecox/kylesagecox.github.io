@@ -20,6 +20,7 @@ body {
 	top: 0;
 	right: 0;
 	padding: 20px 80px;
+	text-align: right;
 }
 #container {
 	margin-top: 120px;
