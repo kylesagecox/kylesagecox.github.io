@@ -17,6 +17,9 @@ body {
 #header #branding {
 	padding: 20px 80px;
 }
+#header #branding a {
+	padding: 20px;
+}
 #header #menu {
 	position: absolute;
 	top: 20px;
