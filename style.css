@@ -1,11 +1,5 @@
-/*
 html {
 	font-size: 16px;
-}
-@media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -13,32 +7,57 @@ body {
 	margin-right: 80px;
 	background-color: #ffffff;
 	color: #666666;
-	font-size: 1rem;
 	line-height: 1.25;
 }
 h1 {
-	font-size: 2.5rem;
+	font-size: 5rem;
 	line-height: 1.25;
 }
 h2 {
-	font-size: 2rem;
+	font-size: 4rem;
 	line-height: 1.25;
 }
 h3 {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	line-height: 1.25;
 }
 h4 {
-	font-size: 1.25rem;
+	font-size: 2.5rem;
 	line-height: 1.25;
 }
 h5, h6 {
-	font-size: 1rem;
+	font-size: 2rem;
 	line-height: 1.25;
 }
 p {
-	font-size: 1rem;
+	font-size: 2rem;
 	line-height: 1.25;
+}
+@media (min-width: 768px) {
+	h1 {
+		font-size: 2.5rem;
+		line-height: 1.25;
+	}
+	h2 {
+		font-size: 2rem;
+		line-height: 1.25;
+	}
+	h3 {
+		font-size: 1.5rem;
+		line-height: 1.25;
+	}
+	h4 {
+		font-size: 1.25rem;
+		line-height: 1.25;
+	}
+	h5, h6 {
+		font-size: 1rem;
+		line-height: 1.25;
+	}
+	p {
+		font-size: 1rem;
+		line-height: 1.25;
+	}
 }
 a {
 	color: #6699cc;
@@ -124,4 +143,3 @@ li {
 	text-align: center;
 	color: #cccccc;
 }
-*/
