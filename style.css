@@ -65,6 +65,10 @@ body {
 	color: #666666;
 	background-color: #ffffff;
 }
+body a {
+	color: #6699ff;
+	text-decoration: none;
+}
 
 #header {
 	position: fixed;
