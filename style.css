@@ -83,7 +83,7 @@ figcaption {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#container div, #container p, #container figure {
+#container div, #container p, #container ul, #container figure {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
