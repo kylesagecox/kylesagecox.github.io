@@ -103,7 +103,7 @@ li {
 	grid-template-columns: 25% auto;
 }
 .grid-item * {
-	max-width: 100%;
+	width: 100%;
 	vertical-align: middle;
 }
 @media only screen and (min-width: 960px) {
