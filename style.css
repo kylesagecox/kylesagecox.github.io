@@ -43,6 +43,9 @@ a {
 	color: #3366cc;
 	text-decoration: none;
 }
+figure {
+	text-align: center;
+}
 figcaption {
 	color: #999999;
 }
