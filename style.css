@@ -102,6 +102,9 @@ li {
 	display: grid;
 	grid-template-columns: 25% auto;
 }
+.grid-item {
+	margin: 0;
+}
 .grid-item p {
 	margin: 20px;
 }
