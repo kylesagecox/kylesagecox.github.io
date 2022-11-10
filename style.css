@@ -75,7 +75,7 @@ a {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#container div {
+#container div, #container p, #container figure {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
