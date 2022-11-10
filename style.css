@@ -30,11 +30,11 @@ p {
 	line-height: 1.25;
 }
 html {
-	font-size: 14px;
+	font-size: 16px;
 }
 @media (min-width: 768px) {
 	html {
-		font-size: 16px;
+		font-size: 20px;
 	}
 }
 a {
