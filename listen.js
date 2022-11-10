@@ -4,7 +4,7 @@ for (let item of hashLinks) {
 		let hash = item.getAttribute('href');
 		let target;
 		if (hash === '#') {
-			target = document.querySelector('body');
+			target = document.querySelector('#container');
 		} else {
 			target = document.querySelector(hash);
 		}
