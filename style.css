@@ -43,6 +43,9 @@ a {
 	color: #6699cc;
 	text-decoration: none;
 }
+a:hover {
+	color: #999999;
+}
 figure {
 	text-align: center;
 }
