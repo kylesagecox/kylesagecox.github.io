@@ -8,8 +8,9 @@ for (let item of hashLinks) {
 		} else {
 			let target = document.querySelector(hash);
 			let targetTop = target.getBoundingClientRect().top;
-			console.log(target, targetTop);
-			window.scrollTo({top: targetTop - 80, behavior: 'smooth'});
+			let destination = targetTop - 80;
+			console.log(target, targetTop, destination);
+			window.scrollTo({top: destination, behavior: 'smooth'});
 		}
 		e.preventDefault();
 	})
