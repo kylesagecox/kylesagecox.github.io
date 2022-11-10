@@ -43,6 +43,9 @@ a {
 	color: #3366cc;
 	text-decoration: none;
 }
+figcaption {
+	color: #999999;
+}
 
 #header {
 	position: fixed;
