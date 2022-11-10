@@ -11,7 +11,7 @@ for (let item of hashLinks) {
 		//		block: 'start'
 		//	});
 			let targetTop = target.getBoundingClientRect().top;
-			window.scrollTo({top: targetTop + 60, behavior: 'smooth'});
+			window.scrollTo({top: targetTop - 60, behavior: 'smooth'});
 		}
 		e.preventDefault();
 	})
