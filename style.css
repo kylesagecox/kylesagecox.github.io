@@ -42,6 +42,7 @@ p {
 a {
 	color: #6699cc;
 	text-decoration: none;
+	transition: color 1s;
 }
 a:hover {
 	color: #666666;
