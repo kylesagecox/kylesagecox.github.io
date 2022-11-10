@@ -2,10 +2,11 @@ var hashLinks = document.querySelectorAll('a[href^="#"]');
 for (let item of hashLinks) {
 	item.addEventListener('click', (e)=> {
 		let hash = item.getAttribute('href');
+		let target;
 		if (hash === '#') {
-			let target = document.querySelector('body');
+			target = document.querySelector('body');
 		} else {
-			let target = document.querySelector(hash);
+			target = document.querySelector(hash);
 		}
 		target.scrollIntoView({
 			behavior: 'smooth',
