@@ -102,6 +102,9 @@ li {
 	display: grid;
 	grid-template-columns: 25% auto;
 }
+.grid-item {
+	width: 100%;
+}
 @media only screen and (min-width: 960px) {
 	.grid-container {
 		grid-template-columns: calc(100% / 6) auto;
