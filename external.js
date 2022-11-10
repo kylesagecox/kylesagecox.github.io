@@ -1,1 +1,3 @@
-// call with <script type="text/javascript" src="external.js"></script>
+if (document.querySelector('#about')) {
+	console.log('about');
+}
