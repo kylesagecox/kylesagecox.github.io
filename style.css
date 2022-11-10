@@ -23,6 +23,9 @@ a {
 	background-color: rgba(250, 250, 250, 0.9);
 	z-index: 10;
 }
+#header #branding {
+	padding: 0 20px;
+}
 #header #branding a {
 	padding: 20px;
 }
