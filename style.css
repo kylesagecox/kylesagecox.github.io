@@ -24,7 +24,7 @@ a {
 	z-index: 10;
 }
 #header #branding {
-	padding: 0 20px;
+	padding: 20px 0;
 }
 #header #branding a {
 	padding: 20px;
