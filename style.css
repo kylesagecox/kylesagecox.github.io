@@ -103,7 +103,12 @@ li {
 }
 .grid-container {
 	display: grid;
-	grid-template-columns: 15% auto;
+	grid-template-columns: 25% auto;
+}
+@media only screen and (min-width: 768px) {
+	.grid-container {
+		grid-template-columns: calc(100% / 6) auto;
+	}
 }
 
 #footer {
