@@ -46,6 +46,9 @@ a {
 a:hover {
 	color: #666666;
 }
+#header a {
+	color: #999999;
+}
 figure {
 	text-align: center;
 }
@@ -82,7 +85,6 @@ li {
 }
 #header #menu a {
 	padding: 20px;
-	color: #999999;
 }
 #container {
 	max-width: 720px;
