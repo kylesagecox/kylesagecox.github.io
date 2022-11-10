@@ -49,6 +49,9 @@ figure {
 figcaption {
 	color: #999999;
 }
+li {
+	padding-left: 20px;
+}
 
 #header {
 	position: fixed;
