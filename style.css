@@ -101,7 +101,7 @@ li {
 	max-width: 720px;
 	max-height: calc(100vh - 160px);
 }
-.grid, .grid-container {
+.grid-container {
 	display: grid;
 	grid-template-columns: 15% auto;
 }
