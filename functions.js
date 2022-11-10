@@ -6,10 +6,12 @@ for (let item of hashLinks) {
 			window.scrollTo({top: 0, behavior: 'smooth'});
 		} else {
 			let target = document.querySelector(hash);
-			target.scrollIntoView({
-				behavior: 'smooth',
-				block: 'start'
-			});
+		//	target.scrollIntoView({
+		//		behavior: 'smooth',
+		//		block: 'start'
+		//	});
+			let targetTop = target.getBoundingClientRect().top;
+			window.scrollTo({top: targetTop + 60, behavior: 'smooth'});
 		}
 		e.preventDefault();
 	})
