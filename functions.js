@@ -1,8 +1,8 @@
-function scroll(target) {
-	if (target.href) {
-		let targetOffset = target.href.offsetTop;
+function scroll(e) {
+	if (e.href) {
+		let targetOffset = e.href.offsetTop;
 		console.log(targetOffset);
 		window.scrollTo({top: targetOffset, behavior: 'smooth'});
 	}
-	return false;
+	e.preventDefault();
 }
