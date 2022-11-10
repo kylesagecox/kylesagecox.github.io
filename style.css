@@ -32,10 +32,10 @@ a {
 #header #menu {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0px;
 	margin-left: 60px;
 	margin-right: 60px;
-	padding: 20px;
+	padding: 20px 0;
 }
 #header #menu a {
 	padding: 20px;
