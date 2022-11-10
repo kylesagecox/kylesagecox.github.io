@@ -102,7 +102,10 @@ li {
 	display: grid;
 	grid-template-columns: 25% auto;
 }
-.grid-item * {
+.grid-item {
+	margin: 20px;
+}
+.grid-item img {
 	width: 100%;
 	vertical-align: middle;
 }
