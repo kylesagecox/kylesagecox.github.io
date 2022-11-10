@@ -92,7 +92,7 @@ li {
 }
 #container img {
 	max-width: 720px;
-	max-height: calc(vh-160px);
+	max-height: calc(100vh-160px);
 }
 
 #footer {
