@@ -31,9 +31,11 @@ a {
 }
 #header #menu {
 	position: absolute;
-	top: 20px;
+	top: 0;
 	right: 0;
-	padding: 20px 80px;
+	margin-left: 80px;
+	margin-right: 80px;
+	padding: 20px;
 }
 #header #menu a {
 	padding: 20px;
