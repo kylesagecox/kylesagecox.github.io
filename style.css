@@ -79,6 +79,7 @@ li {
 }
 #header #menu a {
 	padding: 20px;
+	color: #999999;
 }
 #container {
 	max-width: 720px;
