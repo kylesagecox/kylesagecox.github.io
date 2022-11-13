@@ -96,7 +96,7 @@ li {
 }
 #container img {
 	max-width: calc(100vw - 80px);
-	max-height: calc(100vh - 80px);
+	max-height: calc(100vh - 120px);
 }
 #container .grid-container {
 	display: grid;
