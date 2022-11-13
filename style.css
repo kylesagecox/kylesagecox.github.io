@@ -98,18 +98,18 @@ li {
 	max-width: calc(100vw - 80px);
 	max-height: calc(100vh - 80px);
 }
-.grid-container {
+#container .grid-container {
 	display: grid;
 	grid-template-columns: 25% auto;
 }
-.grid-item {
+#container .grid-item {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.grid-item p {
+#container .grid-item p {
 	margin: 20px;
 }
-.grid-item img {
+#container .grid-item img {
 	width: 100%;
 	vertical-align: middle;
 }
