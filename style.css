@@ -90,13 +90,9 @@ li {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#container div {
+#container div, #container p, #container ul, #container figure {
 	margin-top: 20px;
-	margin-bottom: 60px;
-}
-#container p, #container ul, #container figure {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 #container figure {
 	max-width: 720px;
