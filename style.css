@@ -114,6 +114,8 @@ li {
 	width: 100%;
 }
 #container iframe {
+	border: 5px solid #cccccc;
+	border-radius: 5px;
 	max-width: calc(100vw - 80px);
 	max-height: calc(100vh - 140px);
 	width: 100%;
