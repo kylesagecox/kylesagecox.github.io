@@ -116,6 +116,7 @@ li {
 #container .iframe {
 	max-width: 720px;
 	max-height: 720px;
+	text-align: center;
 }
 #container .iframe iframe {
 	width: 100%;
