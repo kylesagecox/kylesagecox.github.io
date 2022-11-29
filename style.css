@@ -97,6 +97,9 @@ li {
 #container figure {
 	max-width: 720px;
 }
+#container figcaption {
+	padding: 20px;
+}
 #container img {
 	max-width: calc(100vw - 80px);
 	max-height: calc(100vh - 160px);
@@ -118,7 +121,7 @@ li {
 }
 #container iframe {
 	border: 10px solid #cccccc;
-	border-radius: 10px;
+	border-radius: 5px;
 	max-width: calc(100vw - 80px);
 	max-height: calc(100vh - 160px);
 	width: 100%;
